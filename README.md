@@ -114,7 +114,7 @@ This is the third project in a process simulation arc built around Aspen Plus an
 |---|---|---|---|
 | 1 | Crude Distillation Unit (CDU) | Aspen HYSYS | Arabian Light crude, 35-stage column, 53.6% furnace duty reduction |
 | 2 | Natural Gas Sweetening | Aspen HYSYS | DEA absorption, >99.9% H₂S removal |
-| 3 | **H₂ from Biogas (this repo)** | **Aspen Plus** | **DRM + WGS + PSA, net −292 kg CO₂e/hr** |
+| 4 | **H₂ from Biogas (this repo)** | **Aspen Plus** | **DRM + WGS + PSA, net −292 kg CO₂e/hr** |
 
 Each project documents every design decision and every result from the simulator output directly, so the report and the simulation file tell the same story.
 
