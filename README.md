@@ -3,6 +3,10 @@
 **Aspen Plus V14.0 simulation | Steady-state | PR-MHV2 property method**
 
 ---
+## Why this matters
+Biogas is roughly equal parts methane and CO₂. Most hydrogen production routes treat the CO₂ as a problem to remove before the real chemistry starts. Dry reforming takes the opposite approach — the CO₂ stays in and reacts with the methane directly, converting both into syngas. Whether that's clever or inconvenient depends on what you're trying to optimize. In this simulation, it's both.
+The carbon accounting is where this route earns its place. Steam methane reforming on a biogas feed makes little thermodynamic sense when 40% of the feed is CO₂ diluent. DRM uses that CO₂ as a reactant, and the numbers reflect it: net CO₂e balance lands at −292.26 kg/hr. The process removes more carbon than it emits — an unusual result for an industrial hydrogen route.
+The coke problem is real and the simulation doesn't hide it. At 16 bar, 4.95 kg/hr of solid carbon forms from a 38.51 kg/hr feed — 12.9% of feed mass going out as coke. That would foul a Ni catalyst bed fast. The fix is either adding steam to the reformer feed or dropping operating pressure toward 1–5 bar. That's the first thing any follow-on work should tackle.
 
 ## What this is
 
