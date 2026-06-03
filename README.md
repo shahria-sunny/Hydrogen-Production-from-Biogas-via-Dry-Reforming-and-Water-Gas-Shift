@@ -110,21 +110,7 @@ The coke number is worth paying attention to. 4.95 kg/hr of solid carbon from a 
 
 ---
 
-## Part of a larger portfolio
 
-This is the third project in a process simulation arc built around Aspen Plus and Aspen HYSYS:
-
-| # | Project | Tool | Focus |
-|---|---|---|---|
-| 1 | Crude Distillation Unit (CDU) | Aspen HYSYS | Arabian Light crude, 35-stage column, 53.6% furnace duty reduction |
-| 2 | Natural Gas Sweetening | Aspen HYSYS | DEA absorption, >99.9% H₂S removal |
-| 4 | **H₂ from Biogas (this repo)** | **Aspen Plus** | **DRM + WGS + PSA, net −292 kg CO₂e/hr** |
-
-Each project documents every design decision and every result from the simulator output directly, so the report and the simulation file tell the same story.
-
-The DRM route was chosen over SMR because biogas is the feedstock. Running SMR on a feed that is already 40% CO₂ makes no thermodynamic sense. DRM treats that CO₂ as a reactant — which is the right call, even if the coke problem is real and the hydrogen yield in this particular simulation is modest.
-
----
 
 
 ## Author
