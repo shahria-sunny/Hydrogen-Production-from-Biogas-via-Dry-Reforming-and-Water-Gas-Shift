@@ -109,7 +109,21 @@ The coke number is worth paying attention to. 4.95 kg/hr of solid carbon from a 
 
 
 ---
+## Part of a portfolio
 
+This is the final project in a four-part simulation arc.
+
+The first three projects follow conventional refinery and gas treating 
+operations: crude distillation, amine-based H₂S removal, Claus sulfur 
+recovery. Each manages hydrocarbons and acid gases as they move through 
+an industrial facility. This project asks a different question — what 
+happens when the feedstock is waste biomass and the goal is green hydrogen 
+with a net-negative carbon balance.
+
+The arc runs from fossil crude to biogas-derived hydrogen. Same simulation 
+tools, same engineering discipline, different destination.
+
+← Previous: [Claus SRU — Sulfur Recovery](https://github.com/shahria-sunny/Claus-SRU-Aspen-Plus)
 
 
 
